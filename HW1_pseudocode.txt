@@ -1,0 +1,36 @@
+Pseudocode for HW1
+
+In the main() function 
+Prompt the user for input for the desired year using the getYear() function 
+The first function get_year_start(given) gets the starting day of the year user inputs
+Calls the printCalendar() function to print the calendar of the year the user inputs  which is the end of main function 
+In the get_year_start function, enter the formuala that calculates the starting day of the inputted year 
+return the variable that stores it into the variable starting day
+In the printCalendar() function
+loop through each of the 12 months and print all the months of the given year through printMonthName() function
+The printMonthName function uses switch statements 
+Set case 0 as January and Case 1 as february and so till case 11 which is December
+Set the number of days in each of the month in a int num_days variable  
+The printMonth() function prints one month of a calendar and returns the starting date of the next month
+Initialize a counter that loops through all the days of the week 
+Set printMonthName to num_days 
+Print all the days of the week from Sun to Sat 
+Make a for loop for checking what day is the starting day 
+Add gaps before the starting day 
+Make another for loop for looping through the first of the month 
+Set int i to starting day and making i less than 7 (7 days of the week)
+Print the days of the first week 
+Increment for each day 
+Print a new line after the loop ends 
+Make a new for loop which will also be a nested in a for loop 
+Check if the counter(day) is less than or greater than num_days 
+Then make another for loop which will be nested and loops through each day of the week after the first week
+Then add an if statement to check if the day (counter) is less than num_days
+Print the days of the week
+Increment each day 
+Then do an else statement 
+If false, then it's going to enter two new lines 
+Print two new lines 
+Return i 
+Then outside of the second for loop print a new line 
+Return 0 to check if the program executed successfully 
